@@ -1,0 +1,48 @@
+body {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+.button_icon {
+    margin: auto;
+}
+
+.button--primary {
+    background-color: white;
+    color: black;
+}
+
+/* Element Modifier */
+.button_icon--large {
+    font-size: 5px;
+}
+
+.container {
+    background-image: url(https://giffiles.alphacoders.com/221/221887.gif);
+    border: 1px solid black;
+    width: 450px;
+}
+
+.form {
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow:5px black;
+    padding: 50px;
+}
